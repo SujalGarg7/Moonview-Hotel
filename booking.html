@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            background-color: rgba(27, 31, 24, 0.85);
+        }
+        .booking h1{
+            font-size: 2.1rem;
+            line-height: 1.4;
+            text-align: center;
+            text-decoration-color: aliceblue;
+            letter-spacing: 0.5EM;
+        }.maindiv  p{
+    text-align: center;
+    font-size: medium;
+}
+    </style>
+</head>
+<header>
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">GARG'S</a></h1>
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a class="current" href="booking.html">Booking</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+</header>
+<body><div  class="booking"><h1> ROOMS</h1></div>
+    <div class="maindiv">
+    <p>Choose from our variety of rooms to fit your needs and budget.</p></div>
+    <a href="#booking-form">Book Now</a>
+</div>
+    <form id="booking-form">
+		<h1 class="l-heading"><span class="text-primary">BOOK </span> a Room now</h1>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone" required>
+		<label for="room-type">Room Type:</label>
+		<select id="room-type" name="room-type" required>
+			<option value="">Choose Room Type</option>
+			<option value="standard">Standard Room</option>
+			<option value="deluxe">Deluxe Room</option>
+			<option value="suite">Suite</option>
+		</select>
+		<label for="check-in">Check In:</label>
+		<input type="date" id="check-in" name="check-in" required>
+		<label for="check-out">Check Out:</label>
+		<input type="date" id="check-out" name="check-out" required>
+		<input type="submit" value="Book Now">
+	</form>
+    <div class="footer">
+        <div class="text_footer row">
+            <div class="-6 container">
+                <h2>Information</h2>
+                <p>© 2023 Hotel Moonview. All rights reserved.</p>
+                <p> EMAIL ID:- hotelMoonview@gmail.com </p>
+                <p> OFFICE NO:- 161-2225500
+            </div>
+            <br>
+
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 container">
+
+                <ul class="social">
+                    <li> <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li> <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                    <li> <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li> <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </li>
+                    <li> <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
